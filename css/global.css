@@ -1,0 +1,107 @@
+@font-face {
+  font-family: 'icons';
+  src: url('../font/icons.eot?4925010');
+  src: url('../font/icons.eot?4925010#iefix') format('embedded-opentype'),
+       url('../font/icons.woff?4925010') format('woff'),
+       url('../font/icons.ttf?4925010') format('truetype'),
+       url('../font/icons.svg?4925010#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icons  {
+  width: 300px;
+  margin: 0 auto;
+  list-style: none;
+  margin-top: 100px;
+}
+.icons:after  {
+  clear: both;
+  display: table;
+  content: "";
+}
+.icons__item  {
+  float: left;
+  width: 77px;
+  height: 77px;
+  margin: 10px;
+  border-radius: 50%;
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.1) 0%,rgba(0,0,0,0.1) 100%);
+  box-shadow: 0 2px 2px rgba(255,255,232,.5) inset, 1px 2px 4px rgba(0,0,0,.4);
+  text-align: center;
+  line-height: 77px;
+  font-size: 0;
+}
+.icons__item a  {
+  display: block;
+  height: 100%;
+  border-radius: 50%;
+}
+.icons__item:hover  {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(0, 0, 0, .3) 100%); 
+}
+.icons__item:hover i:before  {
+  -webkit-transform: scale(1.125) rotate(3deg) skew(-5deg, -5deg);
+  -ms-transform: scale(1.125) rotate(3deg) skew(-5deg, -5deg);
+  transform: scale(1.125) rotate(3deg) skew(-5deg, -5deg);
+}
+.icons__item_green  {
+  background-color: #00A21E;
+}
+.icons__item_red  {
+  background-color: #B50000;
+}
+.icons__item_orange  {
+  background-color: #FFC600;
+}
+.icons__item_pink  {
+  background-color: #FF00EA;
+}
+.icons__item_gray  {
+  background-color: #9E9E9E;
+}
+.icons__item_blue  {
+  background-color: #007AC8;
+}
+.icons__item_light-green  {
+  background-color: #00DC29;
+}
+.icons__item_purple  {
+  background-color: #B500A6;
+}
+.icons__item_light-blue  {
+  background-color: #00F6FF;
+}
+.fontello:before  {
+  font: normal normal 45px/1em "icons";
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+.fontello-home:before{
+  content: '\e800';
+}
+.fontello-bitbucket:before  {
+  content: '\e809';
+}
+.fontello-cancel:before  {
+  content: '\e806';
+}
+.fontello-music:before  {
+  content: '\E80F';
+}
+.fontello-hourglass:before  {
+  content: '\e808';
+}
+.fontello-clouds:before  {
+  content: '\e803';
+}
+.fontello-clock:before  {
+  content: '\e801';
+}
+.fontello-pensil:before  {
+  content: '\e80c';
+}
+.fontello-info:before  {
+  content: '\e802';
+}
